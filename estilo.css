@@ -13,6 +13,37 @@
     
 }
 
+/*Lo de arriba son unos cubos que cree porque si ahora hare 2 tipos de menu diferentes*/
 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
 
+ol{
+    list-style: none;
+    width: 100px;
+
+}
+
+ol li{
+    text-align: center;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: aquamarine;
+}
+
+ol li:last-child{
+    border-bottom: 1px solid;
+}
+
+ol li:hover{
+    transition: 0.4s;
+    transform: scale(1.5);
+    border-bottom: 1px solid;
+    background-color: gold;
+    cursor:grab;
+}
+
+/*Lo de arriba corresponde  a un menu vertical ahora se hara uno horizontal*\
